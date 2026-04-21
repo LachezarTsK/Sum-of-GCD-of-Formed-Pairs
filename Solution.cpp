@@ -16,7 +16,7 @@ public:
 private:
     static long long calculateSumOfGreatestCommonDivisorOfMinMaxPairsInPrefix(span<int> prefixGreatestCommonDivisor) {
         ranges::sort(prefixGreatestCommonDivisor);
-        long sumOfGreatestCommonDivisorOfMinMaxPairs = 0;
+        long long sumOfGreatestCommonDivisorOfMinMaxPairs = 0;
 
         int front = 0;
         int back = prefixGreatestCommonDivisor.size() - 1;
